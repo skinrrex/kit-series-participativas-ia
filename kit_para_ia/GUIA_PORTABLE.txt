@@ -1,0 +1,586 @@
+# Método 1 / guía práctica para producir tu primera serie
+
+Esta guía enseña un flujo de producción adaptable: idea, reglas de participación, referencias, Blender, Unity, generación opcional, voz, montaje y siguiente episodio. No exige recrear Último Bastión ni incluye sus modelos. Tampoco promete una cifra de seguidores. Los ejemplos de la colonia son propuestas para practicar.
+
+## Empieza con estas entradas
+
+Tema: una colonia lunar. Meta: completar un refugio en siete episodios. Estado inicial: módulo incompleto y tripulación ficticia. Acción principal: comentar ENERGIA, AGUA o TRANSPORTE; la opción con más votos válidos aparece en el episodio siguiente. Estilo: geometría sencilla, blanco y azul con acento naranja. Formato del ejemplo: vertical 1080 × 1920, 24 fps. El tutorial que explica este método es horizontal; tu serie puede usar otro formato.
+
+Completa una fecha de corte con hora y zona antes de publicar. Decide si cuentas una opción por cuenta y ronda, cómo resolverás un empate y cómo tratarás votos tardíos. No necesitas usar las tres métricas a la vez. Si el seguimiento no puede medirse con fiabilidad, utiliza la votación como regla principal y no inventes identidades.
+
+## Herramientas y acceso
+
+Prepara una carpeta de proyecto, Blender, Unity Editor y una herramienta de montaje como FFmpeg. El agente necesita acceso real a esa carpeta y a los programas. Antes de producir debe localizar sus ejecutables, consultar sus versiones y comprobar qué puede ejecutar. No hace falta comprar todos los servicios para una prueba: el primer episodio puede usar tomas nativas; OmniFlash es opcional y la voz puede entregarse como un archivo grabado.
+
+Si un programa o un servicio no está disponible, el agente debe dejar sus entradas listas y registrar el paso pendiente. Preparar un script no equivale a ejecutarlo. Instalar o conectar una herramienta tampoco demuestra que el resultado sea correcto.
+
+## Cómo entregar esta guía a tu agente
+
+Opción A: extrae KIT_METODO_1_IA.zip, abre la carpeta kit_para_ia y utiliza PROMPT_INICIO.txt. Opción B: adjunta este PDF y pide reconstruir la carpeta a partir de las plantillas impresas y del archivo kit_para_ia.zip adjunto al PDF. Algunos visores no muestran adjuntos; en ese caso el texto impreso permite reconstruir los archivos esenciales. Si el agente no puede leer el PDF, utiliza GUIA_PORTABLE.txt o METODO_COMPLETO.md del ZIP.
+
+El PDF reúne el método, el prompt, el ejemplo guiado y los contenidos de las plantillas. El ZIP añade los mismos archivos editables. No se necesitan las carpetas privadas del autor para iniciar un proyecto propio.
+
+## Qué debes obtener en cada etapa
+
+Preproducción: brief, reglas, calendario, fichas, inventario y storyboard. Revisa que una persona entienda la idea y cómo intervenir. Producción: script de Blender, .blend, export de prueba, proyecto de Unity, capturas y clips originales. Revisa primero una toma de tres segundos antes de producir toda la biblioteca. Edición: voz medida, timeline, MP4, subtítulos y pistas separadas. Continuidad: corte verificable, recuento y estado actualizado una sola vez.
+
+La primera entrega puede ser pequeña: cuatro planos, un módulo, un personaje y tres variantes de mejora. En el primer plano aparece el refugio incompleto; después se comparan las opciones; al final se explica el voto y dónde aparecerá la mejora. El storyboard de ejemplo conserva abierta la decisión.
+
+## Soluciones a problemas frecuentes
+
+Modelo demasiado grande o girado: revisa escala y orientación con un único objeto importado antes de exportar todo. Material rosa o perdido: comprueba render pipeline, shader y texturas en Unity; una exportación no garantiza compatibilidad de materiales. Cámara equivocada: comprueba la fuente del Recorder y abre el archivo exportado. Acción fuera de cuadro: compara la toma con el storyboard y corrige la cámara antes del render final.
+
+Clip generado que cambia personajes u objetos: corrige esa toma o utiliza la captura nativa. Voz más larga de lo previsto: redistribuye los planos y añade cobertura pertinente; conserva la velocidad natural de la lectura. Datos de audiencia ausentes: deja null, conserva la elección pendiente y no fabriques un resultado. Empate: aplica la regla anunciada; una segunda ronda es válida si estaba prevista.
+
+## Cómo sabrás que el piloto está terminado
+
+Abre el .blend y el proyecto de Unity. Comprueba un export real de principio a fin. Deben coincidir narración, imagen y subtítulos; debe verse la consecuencia prometida; la regla de participación y la fecha de corte deben ser comprensibles. Conserva fuentes, scripts y estado. Un informe técnico no sustituye revisar imagen y escuchar sonido. La publicación en tus cuentas requiere tu instrucción explícita.
+
+
+# Método 1: crear series participativas con IA
+
+Idea, participación y producción. Edición pública revisada el 22/11/2026.
+
+## El formato y su objetivo
+
+### Qué vas a producir
+
+Una serie corta donde seguir, comentar o dar me gusta produce cambios visibles. La temática y la edición buscan atraer público y facilitar que una persona comprenda cómo intervenir.
+
+### Qué contiene la guía
+
+Flujo de idea, planificación, referencias, 3D, captura, generación, voz, edición y actualización del siguiente episodio. El kit se puede leer desde Codex o Claude Code.
+
+### Qué demuestran los ejemplos
+
+Un recurso 3D demuestra una técnica. Un caso de crecimiento exige su fuente, cuenta y periodo. Las capturas de otros creadores se incorporan con esa distinción; el material de Último Bastión es una demostración de producción.
+
+## 1 / Elige una temática clara
+
+### Tres criterios
+
+Imagen reconocible, transformación visible y decisión sencilla. Escribe una frase que permita entender el mundo y la intervención del público.
+
+### Prueba la promesa
+
+Estadio: cada seguidor añade un aficionado; comentarios eligen la mejora. Colonia: llegan habitantes; comentarios eligen agua, energía o transporte. Academia: se proponen materias y se elige una especialidad. Son ejemplos propuestos.
+
+### Tres aperturas
+
+Prepara una entrada que muestre un problema, otra una mejora y otra una elección. Compara qué necesita menos contexto y qué cambio se entiende en el primer plano.
+
+## 2 / Diseña la participación
+
+### Acciones diferentes
+
+Seguimiento: habitantes o aficionados. Me gusta: recursos. Comentario: una elección. Prioriza una acción por capítulo y muestra la recompensa que le corresponde.
+
+### Contrato
+
+Si el público hace X antes del corte Y, el próximo episodio muestra Z. Define voto válido, repetidos, fecha/hora/zona y empate antes del resultado.
+
+### Escala visual
+
+Puedes representar grupos y un contador, más algunos personajes en primer plano. La representación debe ser coherente con lo que prometiste y con los datos que puedas verificar.
+
+## 3 / Meta y episodios
+
+### Ficha de temporada
+
+Tema, estado inicial, meta visible, episodios, regla principal, estilo y recursos. El kit ofrece BRIEF.json para guardarlo.
+
+### Ejemplo de siete entregas
+
+Presentación, primera consecuencia, dificultad, elección, mejora, preparación y resultado. Es una estructura propuesta, no una frecuencia exigida por las plataformas.
+
+### Decisiones abiertas
+
+Construye la parte común y variantes pequeñas. No elijas el resultado del público antes del corte. Guarda propuestas, hechos confirmados y pendientes por separado.
+
+## 4 / Encargo a ChatGPT y al agente
+
+### Prompt Inicio
+
+Completa el archivo del kit y pide brief, calendario, fichas, inventario y storyboard. Da una carpeta de trabajo y exige archivos editables y comprobaciones.
+
+### Acceso real
+
+ChatGPT ayuda a diseñar. Codex o Claude Code pueden ejecutar lo que permitan el entorno y sus herramientas. Comprobar Blender, Unity, FFmpeg y servicios antes de prometer automatización.
+
+### Entregas
+
+Pedir scripts y archivos, abrirlos y revisar capturas. Si un servicio se usa por separado, preparar su texto, imagen y prompt. Conservar maestros y versiones anteriores.
+
+## 5 / Estilo y storyboard
+
+### Ficha visual
+
+Paleta, proporciones y materiales. Personaje: frente/perfil/espalda, altura, ropa y accesorio. Escenario: dimensiones, partes móviles y cámaras.
+
+### Una fila por plano
+
+Frase, acción visible, cámara, recursos, duración orientativa, método y criterio de aceptación. Usar STORYBOARD.json y FICHA_RECURSO.md.
+
+### Composición
+
+Antes/después con el mismo encuadre para un cambio. Imagen conceptual para dirigir un momento importante. Comparar el concepto con capturas del modelo real; no son la misma evidencia.
+
+## 6 / Blender
+
+### Prueba pequeña
+
+Un escenario, un personaje y los objetos del primer episodio. Pedir al agente un script Python, el .blend y capturas de control.
+
+### Orden
+
+Forma y escala, materiales, articulaciones y detalles que necesita la cámara. Separar piezas que deban construirse o cambiar. Usar una pose de utilería cuando resuelva el gesto del plano.
+
+### Salida
+
+Conservar .blend y exportar un objeto de prueba a Unity. Revisar orientación, escala, normales, materiales, texturas y animaciones en destino antes de toda la biblioteca.
+
+## 7 / Unity y captura
+
+### Integración
+
+Importar una prueba, montar escena y preparar una acción repetible. La cámara acompaña la acción del mundo.
+
+### Recorder
+
+Con versión compatible, configurar cámara, resolución, fps e intervalo. Exportar tres segundos y revisar movimiento, encuadre y materiales. Un script de editor puede necesitar adaptación a modo de reproducción.
+
+### Otras rutas
+
+Capturar cuadros y codificar después, o producir un insert nativo desde Blender. Documentar qué se usó realmente; fps del video y tiempo de render son cosas distintas.
+
+## 8 / OmniFlash
+
+### Entrada
+
+Una imagen limpia de la toma y referencias de identidad. Puede proceder del 3D o del concepto. Declarar cuál se utilizó.
+
+### Prompt
+
+Un sujeto o grupo, una acción, un final, cámara y elementos que deben permanecer iguales. Ejemplo: tres personajes miran la pantalla, giran levemente la cabeza y se detienen, conservando ropa y objetos.
+
+### Aceptación
+
+Revisar principio, desarrollo y final: identidad, manos, contactos, desapariciones y continuidad. Guardar el original y el tramo útil. Si falla la acción principal, corregir esa toma.
+
+## 9 / ElevenLabs y edición
+
+### Voz
+
+Texto limpio, una prueba de nombres y pausas y una lectura medida. Entrega al agente la narración definitiva como archivo de audio; no mezcles instrucciones de cámara en el texto de voz.
+
+### Montaje
+
+Inventario de fuentes, entrada/salida, función del plano y tiempo en la secuencia. La imagen demuestra la frase. Cortar cuando cambia la información; no adelantar una revelación con un rótulo.
+
+### Entrega
+
+Video, proyecto, audio separado y subtítulos editables. Revisar el MP4 codificado en imagen y audio. Las mediciones técnicas no sustituyen una escucha y una revisión de comprensión.
+
+## 10 / El siguiente episodio
+
+### Corte verificable
+
+Guardar fecha, plataforma y fuente. Evitar reimportaciones y votos repetidos. Acreditar solo crecimiento de métricas todavía no aplicado; conservar una base por publicación.
+
+### Estado
+
+Actualizar recursos, decisión y pendientes. Un corte se aplica una vez. ESTADO.json conserva la continuidad; cifras desconocidas quedan null.
+
+### Comprobar la respuesta
+
+En YouTube Shorts, la documentación describe elección de ver, permanencia y satisfacción, junto al interés temático. Usar esa respuesta para revisar entrada, claridad y temática. Una mecánica aislada no certifica un resultado de crecimiento. Consulta YouTube Search and discovery tips: https://support.google.com/youtube/answer/11914225?hl=en .
+
+## 11 / Reutiliza y adapta idiomas
+
+### Biblioteca
+
+Conservar modelos, cámaras, prompts y estado. Cambiar la parte necesaria del episodio. El proyecto no depende de una temática concreta.
+
+### Pistas
+
+Imagen sin voz, narración, música/efectos y subtítulos separados. Una traducción debe conservar sentido y coincidir con los momentos visuales. Revisar su duración; no deformar la voz para forzarla.
+
+### Métodos existentes
+
+Conserva un método de montaje por palabras y fragmentos para reutilizar recursos entre episodios. Esa reutilización es una técnica de producción, no una prueba de resultados de audiencia.
+
+## Prompts para iniciar
+
+### Preproducción
+
+Lee el método y mis datos. Prepara brief, reglas, calendario, fichas, inventario y storyboard. Deja abiertas las decisiones del público y marca lo que falte.
+
+### Producción
+
+Construye los recursos necesarios en una copia. Conserva .blend, export de prueba y capturas. Verifica la importación y una toma breve antes de producir toda la biblioteca.
+
+### Edición
+
+Mide voz y videos. Señala tramos útiles y cobertura faltante. Monta a velocidad natural; guarda proyecto, fuentes y subtítulos y revisa el export.
+
+### Continuación
+
+Lee el estado anterior y el corte de participación. Aplica las reglas, muestra la consecuencia y guarda el estado nuevo sin inventar cifras ni ganadores.
+
+
+
+# Prompt de inicio completo
+
+Quiero crear una serie participativa con IA. Lee primero INSTRUCCIONES_PROYECTO.md y METODO_COMPLETO.md de esta carpeta. Si no puedes leer algún archivo, indica cuál y trabaja con lo disponible.
+
+Mi tema: [completar]
+Mi meta visible: [completar]
+Cantidad de episodios: [completar]
+Formato y plataforma: [completar]
+Qué cambia un me gusta: [completar o no se usa]
+Comentario válido y consecuencia: [completar]
+Qué cambia un nuevo suscriptor: [completar o no se usa]
+Fecha, hora y zona del corte: [completar]
+Estilo y referencias: [completar]
+Herramientas disponibles y carpeta de trabajo: [completar]
+
+Primero prepara preproducción revisable: brief, reglas, calendario, fichas, inventario y storyboard. Comprueba herramientas y accesos sin gastar en generaciones. Marca propuestas y datos pendientes. No generes voz ni video hasta mi revisión. Después, cuando autorice producir, ejecuta por etapas y conserva fuentes, proyectos, capturas reales y estado. No inventes que una captura, generación, escucha o revisión se hizo si no ocurrió.
+
+
+# Ejercicio guiado
+
+# Del brief al primer episodio
+
+Ejercicio propuesto: colonia lunar. No contiene modelos terminados ni resultados reales de audiencia. Cambia el tema conservando la secuencia de trabajo. Los tiempos del episodio se fijan después de medir la voz.
+
+## 1. Preparar el proyecto
+
+Abre una carpeta nueva con tu agente y adjunta este kit. Usa INICIAR_EJEMPLO.txt. Pide que detecte las herramientas disponibles y registre sus versiones y rutas. Si una herramienta requiere uso manual, el agente debe preparar sus entradas.
+
+Encargo: «Lee BRIEF.json y STORYBOARD_EPISODIO_01.json. Entrega un inventario de recursos, fichas visuales y una lista de herramientas disponibles. Conserva la votación sin resolver. Trabaja sobre una copia y registra qué partes requieren mi intervención».
+
+Resultado revisable: brief, inventario, fichas y storyboard. Antes de modelar comprueba que las tres mejoras tengan siluetas distintas y que el refugio incompleto se reconozca sin narración.
+
+## 2. Construir una prueba en Blender
+
+Encargo: «Crea un script de Blender para construir el módulo central con una puerta y tres puntos de conexión para las mejoras. Usa metros, nombres claros y piezas separadas. Añade una cámara vertical que muestre la entrada y los puntos de conexión. Guarda el .blend y una captura de control. Exporta solo el módulo como prueba para Unity. Declara qué archivos ejecutaste y cuáles solo preparaste».
+
+Después construye un astronauta estilizado y versiones sencillas de panel solar, depósito de agua y vehículo. La cámara necesita distinguir las opciones; los detalles fuera del encuadre pueden esperar. Guarda también una imagen de referencia común con paleta y proporciones.
+
+Archivos esperados: script, .blend, export de prueba, texturas si se usan y capturas nativas. Abrir una captura comprueba la forma; una animación necesita además revisión del video.
+
+## 3. Montar y capturar en Unity
+
+Encargo: «Importa el módulo de prueba y comprueba tamaño, orientación y materiales. Guarda una escena con suelo, luz y cámara vertical. Prepara una acción donde el astronauta llegue a la puerta y se detenga. Exporta tres segundos con la ruta de captura compatible con esta instalación. Conserva escena, scripts y configuración de salida».
+
+Revisa el archivo fuera del editor: la cámara correcta debe mostrar al personaje entrando y deteniéndose. Si el tamaño o los materiales fallan, corrige la prueba antes de importar toda la biblioteca.
+
+Una vez validada, captura S01 y S04 desde el mismo encuadre. Para S02 prepara tres insertos, uno por mejora, sin señalar una ganadora. S03 se resuelve con un gráfico de opciones y la fecha de corte confirmada.
+
+## 4. Preparar una toma opcional en OmniFlash
+
+Usa una captura limpia del plano, sin contadores ni texto que deban permanecer legibles. Prompt propuesto: «El astronauta se aproxima a la puerta del refugio, se detiene y observa el espacio vacío a su derecha. Cámara fija. Conserva diseño, proporciones, colores, puerta y terreno. Termina con el personaje quieto».
+
+Guarda imagen inicial, prompt y video original. Revisa inicio, desarrollo y final: pies, contacto con el suelo, puerta e identidad. Si la acción no se cumple, conserva la toma nativa o corrige la generación. Este paso es opcional; no hace falta generar cada plano.
+
+## 5. Crear la voz y medirla
+
+El campo voz de STORYBOARD_EPISODIO_01.json es el texto de partida. Confirma las reglas y el corte antes de grabar la lectura destinada a publicación. Copia únicamente la narración en ElevenLabs y exporta el audio original.
+
+Encargo al agente: «Mide esta voz con ffprobe o medir_medios.py. Distribuye los planos siguiendo las frases reales. Mantén la velocidad natural y marca cualquier acción que no tenga cobertura. No asumas una duración de treinta segundos».
+
+## 6. Montar y revisar
+
+Encargo: «Monta S01 para presentar el refugio, S02 para distinguir las mejoras, S03 para explicar el voto y S04 para mostrar dónde aparecerá la consecuencia. Usa la voz medida, conserva fuentes y puntos de entrada/salida, y entrega MP4, proyecto editable, subtítulos y pistas separadas».
+
+Comprueba el export completo: el refugio se entiende; las opciones coinciden con las reglas; la fecha del corte es legible; la voz no queda cortada; los subtítulos no anuncian una decisión inexistente. Registra por separado las mediciones, la revisión visual y la escucha. Una etapa no sustituye a las otras.
+
+## 7. Continuar con el episodio dos
+
+Guarda el corte real y los comentarios con su fuente. Aplica el criterio anunciado para votos repetidos y empates. Si faltan datos, no elijas una ganadora. Actualiza ESTADO.json con el corte aplicado y conserva la versión anterior.
+
+Cuando exista un resultado válido, la primera toma del episodio dos muestra esa mejora entrando en el mismo espacio reservado. Después presenta el nuevo problema y la siguiente decisión. Así la participación cambia la escena y el proyecto conserva continuidad.
+
+## Carpeta de entrega sugerida
+
+```text
+mi_serie/
+  preproduccion/    # brief, reglas, fichas y storyboard
+  blender/         # scripts, .blend y exportaciones
+  unity/           # proyecto, escenas y configuración
+  tomas/           # originales y tramos seleccionados
+  generacion/      # referencias, prompts y resultados
+  audio/           # narración original y mezcla
+  montaje/         # proyecto, timeline y subtítulos
+  entregas/        # MP4 y maestro de imagen
+  estado/          # cortes, fuentes y versiones del mundo
+```
+
+
+# Archivos editables esenciales
+
+Crea cada archivo con el nombre indicado. Los null representan datos pendientes; no deben convertirse en cifras inventadas.
+
+## ejemplo_colonia_lunar/BRIEF.json
+
+```
+{
+  "ejemplo_propuesto_no_es_una_campana_real": true,
+  "tema": "Colonia lunar con diseños originales",
+  "meta_visible": "Terminar un refugio habitable en siete episodios",
+  "episodios": 7,
+  "formato": "9:16",
+  "estilo": "Geometría sencilla, astronautas estilizados, paleta blanca y azul con acento naranja",
+  "estado_inicial": "Un módulo incompleto y una pequeña tripulación ficticia",
+  "participacion": {
+    "accion_principal": "Comentar ENERGIA, AGUA o TRANSPORTE",
+    "consecuencia": "El siguiente episodio incorpora la mejora con más votos válidos",
+    "likes": "Cada nuevo me gusta acreditado suma una unidad de energía al contador del mundo",
+    "suscriptores": "El crecimiento neto positivo verificado suma tripulación; no se inventan identidades",
+    "un_voto_por": "plataforma y cuenta por ronda; primera opción válida",
+    "empate": "Abrir una segunda ronda entre las opciones empatadas; no inventar una ganadora",
+    "tardios": "No cuentan para esta ronda; no se trasladan automáticamente a otra elección",
+    "corte_iso8601": null,
+    "pendiente_antes_de_publicar": "Fijar fecha, hora y zona del corte y anunciar las reglas"
+  },
+  "recursos_minimos": ["Modulo central", "Astronauta", "Panel de energia", "Deposito de agua", "Vehiculo de transporte"],
+  "nota": "Los recursos son un encargo de construcción; no se incluyen modelos ni se afirma que ya existan"
+}
+
+```
+
+## ejemplo_colonia_lunar/STORYBOARD_EPISODIO_01.json
+
+```
+{
+  "ejemplo_propuesto": true,
+  "voz": "Tenemos siete episodios para terminar este refugio en la Luna. Pero solo podemos empezar con una mejora. ¿Energía, agua o transporte? Comenta tu opción antes del corte indicado. La más elegida aparecerá en el próximo episodio. ¿Qué construirías primero?",
+  "tiempos_definitivos": false,
+  "planos": [
+    {"id":"S01","funcion":"Presentar la meta","accion_visible":"Un astronauta llega a la puerta del módulo incompleto","camara":"General cercano","recursos":["Modulo central","Astronauta"],"criterio":"La falta de partes del refugio se entiende a simple vista"},
+    {"id":"S02","funcion":"Presentar opciones","accion_visible":"Mostrar los tres proyectos de mejora por separado","camara":"Tres insertos","recursos":["Panel de energia","Deposito de agua","Vehiculo de transporte"],"criterio":"Las opciones se distinguen por silueta y rótulo"},
+    {"id":"S03","funcion":"Explicar cómo participar","accion_visible":"Mostrar ENERGIA / AGUA / TRANSPORTE, una instrucción de voto y el corte confirmado","camara":"Gráfico editorial","recursos":[],"criterio":"El texto coincide con las reglas anunciadas; no hay una ganadora ficticia"},
+    {"id":"S04","funcion":"Cerrar con consecuencia","accion_visible":"Volver al refugio con su espacio reservado para la próxima mejora","camara":"Mismo general del inicio","recursos":["Modulo central","Astronauta"],"criterio":"Se entiende qué cambiará cuando termine la ronda"}
+  ]
+}
+
+```
+
+## INSTRUCCIONES_PROYECTO.md
+
+```
+# Instrucciones del proyecto de serie participativa
+
+1. Lee METODO_COMPLETO.md, las reglas y el último estado antes de trabajar. La instrucción más reciente del creador prevalece; registra cambios de alcance.
+2. Separa hechos confirmados, propuestas y datos pendientes. Nunca inventes métricas, usuarios, ganadores ni resultados de pruebas.
+3. Conserva maestros y originales. Guarda cambios y exportaciones en versiones nuevas; archiva lo reemplazado antes de modificarlo. Utiliza rutas relativas en los archivos portables.
+4. Comprueba acceso real a Blender, Unity, herramientas de edición y servicios. Una preparación de código no equivale a una ejecución validada. No asumas APIs conectadas ni licencias activas.
+5. Primero preproducción revisable. Produce voz/video dentro del alcance autorizado por el creador. La autorización ya dada sigue vigente; no vuelvas a solicitarla para pasos rutinarios. Dentro de una etapa autorizada continúa trabajando sin pedir confirmaciones rutinarias.
+6. Cada plano tiene función, acción visible y criterio de aceptación. Revisa geometría en capturas nativas y movimiento en video exportado. No sustituyas evidencia por una descripción.
+7. La voz medida define tiempos de montaje. Conserva audio original. Los textos limpios no llevan dirección de cámara.
+8. Deduplica audiencia y guarda corte con zona horaria y fuente. Reimportar el mismo corte nunca vuelve a sumar aportes. Aplica reglas anunciadas de empates, tardíos y métricas decrecientes.
+9. Guarda proyecto editable, fuentes, timeline, subtítulos, control técnico y estado. Diferencia control automático de escucha y revisión humana.
+10. No publiques ni subas contenido a cuentas sociales salvo instrucción explícita. Cierra cada etapa con archivos reales y pendientes concretos.
+
+```
+
+## medir_medios.py
+
+```
+"""Usage: python medir_medios.py FILE [FILE ...]. Requires ffprobe on PATH."""
+import json, subprocess, sys
+from pathlib import Path
+for arg in sys.argv[1:]:
+    file=Path(arg)
+    result=subprocess.run(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(file)],capture_output=True,text=True,encoding='utf-8')
+    if result.returncode:
+        print(json.dumps({'archivo':str(file),'error':result.stderr},ensure_ascii=False)); continue
+    data=json.loads(result.stdout)
+    print(json.dumps({'archivo':str(file),'duracion_s':data.get('format',{}).get('duration'),'streams':[{k:s.get(k) for k in ['codec_type','codec_name','width','height','avg_frame_rate','sample_rate','channels']} for s in data['streams']]},ensure_ascii=False))
+
+```
+
+## plantillas/BRIEF.json
+
+```
+{
+  "tema": null,
+  "meta_visible": null,
+  "episodios": 7,
+  "formato": "9:16",
+  "estilo": null,
+  "reglas": {
+    "likes": null,
+    "comentario_valido": null,
+    "suscriptores": null,
+    "corte_iso8601": null,
+    "duplicados": null,
+    "empate": null,
+    "tardios": null,
+    "politica_descensos": null
+  },
+  "confirmado": [],
+  "propuestas": [],
+  "pendientes": []
+}
+```
+
+## plantillas/COMENTARIOS.csv
+
+```
+plataforma,post_id,comentario_id,cuenta_id,ronda,texto,fecha_iso8601,opcion,es_valido,motivo
+
+```
+
+## plantillas/CORTE_AUDIENCIA.json
+
+```
+{
+  "ejemplo": false,
+  "corte_id": null,
+  "fecha_iso8601": null,
+  "zona_horaria": null,
+  "fuentes": [],
+  "posts": [],
+  "suscriptores": {
+    "metodo": null,
+    "base": null,
+    "actual": null
+  },
+  "comentarios": [],
+  "reglas_version": null,
+  "aplicado": false
+}
+```
+
+## plantillas/EJEMPLO_DATOS_SIMULADOS.json
+
+```
+{
+  "ejemplo_ficticio_no_usar_como_datos_reales": true,
+  "ronda": "demo_01",
+  "corte_id": "demo_01_corte_b",
+  "fecha_iso8601": "2026-11-12T18:00:00-03:00",
+  "zona_horaria": "America/Buenos_Aires",
+  "post": {"plataforma": "demo", "post_id": "publicacion_01", "likes_ultimo_total_acreditado": 120, "likes_actuales": 170, "aporte_nuevo": 50},
+  "suscriptores": {"metodo": "saldo_neto_entre_cortes", "base": 1000, "actual": 1012, "saldo_neto": 12, "identidades_disponibles": false},
+  "comentarios": [
+    {"plataforma": "demo", "post_id": "publicacion_01", "comentario_id": "c01", "cuenta_id": "cuenta_a", "ronda": "demo_01", "texto": "ME ANOTO + ENERGIA", "opcion": "energia", "es_valido": true},
+    {"plataforma": "demo", "post_id": "publicacion_01", "comentario_id": "c02", "cuenta_id": "cuenta_a", "ronda": "demo_01", "texto": "ME ANOTO + ENERGIA", "opcion": "energia", "es_valido": false, "motivo": "segundo voto de la misma cuenta en la ronda"},
+    {"plataforma": "demo", "post_id": "publicacion_01", "comentario_id": "c03", "cuenta_id": "cuenta_b", "ronda": "demo_01", "texto": "ME ANOTO + AGUA", "opcion": "agua", "es_valido": true}
+  ],
+  "resultado": {"energia": 1, "agua": 1, "ganador": null, "estado": "empate; aplicar la regla anunciada"},
+  "aplicado": false
+}
+
+```
+
+## plantillas/ESTADO.json
+
+```
+{
+  "episodio": 0,
+  "corte_aplicado_id": null,
+  "recursos": {},
+  "personajes": [],
+  "decisiones_confirmadas": [],
+  "ganador": null,
+  "datos_audiencia_auditados": false,
+  "ultima_entrega": null,
+  "pendientes": [],
+  "cortes_aplicados": [],
+  "totales_acreditados_por_publicacion": {},
+  "historial_votos_por_ronda": []
+}
+
+```
+
+## plantillas/FICHA_RECURSO.md
+
+```
+# Ficha de recurso
+ID:
+Tipo: personaje / escenario / prop
+Rol:
+Medidas y escala:
+Paleta/materiales:
+Referencias: frente / perfil / espalda / tres cuartos
+Invariantes visuales:
+Acciones necesarias:
+Rig o poses de utilería:
+Archivos nativos y exportados:
+Cámaras donde aparece:
+Criterio de aceptación:
+Confirmado / propuesta / pendiente:
+
+```
+
+## plantillas/REGISTRO_REVISION.md
+
+```
+# Revisión de una entrega
+Versión y archivo:
+Control técnico ejecutado y resultado:
+Capturas reales revisadas:
+Video visto completo por:
+Audio escuchado completo por:
+Problemas y minuto/segundo:
+Estado: pendiente / corregir / aprobado por creador
+Estado del mundo guardado en:
+Próximo paso:
+
+```
+
+## plantillas/STORYBOARD.json
+
+```
+{
+  "episodio": 1,
+  "planos": [
+    {
+      "id": "S01",
+      "frase": null,
+      "accion_visible": null,
+      "camara": null,
+      "recursos": [],
+      "duracion_estimada_s": null,
+      "metodo": null,
+      "referencia": null,
+      "criterio_aceptacion": null,
+      "pendientes": []
+    }
+  ]
+}
+```
+
+## plantillas/TIMELINE.json
+
+```
+{
+  "fps": 24,
+  "ancho": 1080,
+  "alto": 1920,
+  "voz_archivo": null,
+  "duracion_voz_s": null,
+  "segmentos": [
+    {
+      "id": "S01",
+      "archivo": null,
+      "entrada_s": null,
+      "salida_s": null,
+      "inicio_secuencia_s": null,
+      "velocidad": 1.0,
+      "funcion": null
+    }
+  ],
+  "subtitulos": null
+}
+```
+
+# Fuentes técnicas
+
+Unity Movie Recorder: https://docs.unity3d.com/Packages/com.unity.recorder@5.1/manual/RecorderMovie.html . Comprobar compatibilidad del paquete con el Editor instalado.
+
+YouTube, capítulos: https://support.google.com/youtube/answer/9884579?hl=es . Son una herramienta de navegación; no se afirma que garanticen posicionamiento.
+
+Esta guía se acompaña de instrucciones de proyecto y fichas editables dentro del adjunto y del ZIP. El flujo completo con todos los servicios requiere los accesos del creador; aquí no se certifica una ejecución nueva de Blender, Unity ni OmniFlash por el lector.

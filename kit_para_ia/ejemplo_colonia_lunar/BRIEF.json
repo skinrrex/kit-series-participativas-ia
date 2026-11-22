@@ -1,0 +1,22 @@
+{
+  "ejemplo_propuesto_no_es_una_campana_real": true,
+  "tema": "Colonia lunar con diseños originales",
+  "meta_visible": "Terminar un refugio habitable en siete episodios",
+  "episodios": 7,
+  "formato": "9:16",
+  "estilo": "Geometría sencilla, astronautas estilizados, paleta blanca y azul con acento naranja",
+  "estado_inicial": "Un módulo incompleto y una pequeña tripulación ficticia",
+  "participacion": {
+    "accion_principal": "Comentar ENERGIA, AGUA o TRANSPORTE",
+    "consecuencia": "El siguiente episodio incorpora la mejora con más votos válidos",
+    "likes": "Cada nuevo me gusta acreditado suma una unidad de energía al contador del mundo",
+    "suscriptores": "El crecimiento neto positivo verificado suma tripulación; no se inventan identidades",
+    "un_voto_por": "plataforma y cuenta por ronda; primera opción válida",
+    "empate": "Abrir una segunda ronda entre las opciones empatadas; no inventar una ganadora",
+    "tardios": "No cuentan para esta ronda; no se trasladan automáticamente a otra elección",
+    "corte_iso8601": null,
+    "pendiente_antes_de_publicar": "Fijar fecha, hora y zona del corte y anunciar las reglas"
+  },
+  "recursos_minimos": ["Modulo central", "Astronauta", "Panel de energia", "Deposito de agua", "Vehiculo de transporte"],
+  "nota": "Los recursos son un encargo de construcción; no se incluyen modelos ni se afirma que ya existan"
+}

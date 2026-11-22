@@ -1,0 +1,16 @@
+{
+  "ejemplo": false,
+  "corte_id": null,
+  "fecha_iso8601": null,
+  "zona_horaria": null,
+  "fuentes": [],
+  "posts": [],
+  "suscriptores": {
+    "metodo": null,
+    "base": null,
+    "actual": null
+  },
+  "comentarios": [],
+  "reglas_version": null,
+  "aplicado": false
+}

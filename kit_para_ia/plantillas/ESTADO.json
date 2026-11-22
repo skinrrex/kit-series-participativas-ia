@@ -1,0 +1,14 @@
+{
+  "episodio": 0,
+  "corte_aplicado_id": null,
+  "recursos": {},
+  "personajes": [],
+  "decisiones_confirmadas": [],
+  "ganador": null,
+  "datos_audiencia_auditados": false,
+  "ultima_entrega": null,
+  "pendientes": [],
+  "cortes_aplicados": [],
+  "totales_acreditados_por_publicacion": {},
+  "historial_votos_por_ronda": []
+}

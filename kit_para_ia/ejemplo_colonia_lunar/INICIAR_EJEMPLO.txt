@@ -1,0 +1,5 @@
+Lee el método y las instrucciones del kit. Este es un ejemplo propuesto para practicar el proceso, no una campaña real ni un conjunto de modelos ya construidos.
+
+Utiliza BRIEF.json y STORYBOARD_EPISODIO_01.json como entradas. Primero comprueba el entorno y prepara la ficha visual de los recursos mínimos. Conserva la decisión del público sin resolver. La fecha de corte debe completarse antes de publicar; puedes avanzar con modelos y tomas comunes sin inventarla.
+
+Prepara un piloto con pocos recursos: archivo de Blender editable, export de prueba a Unity, cámaras y una toma breve para comprobar movimiento. No declares una importación, render o escucha realizada sin verificarla. Si no puedes acceder a un servicio, deja sus entradas listas y explica el acceso que falta. Antes del montaje final utiliza la duración real de la voz. Guarda fuentes, timeline y estado del episodio para continuar.

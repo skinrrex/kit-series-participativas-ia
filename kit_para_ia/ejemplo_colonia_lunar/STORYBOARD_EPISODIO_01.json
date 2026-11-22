@@ -1,0 +1,11 @@
+{
+  "ejemplo_propuesto": true,
+  "voz": "Tenemos siete episodios para terminar este refugio en la Luna. Pero solo podemos empezar con una mejora. ¿Energía, agua o transporte? Comenta tu opción antes del corte indicado. La más elegida aparecerá en el próximo episodio. ¿Qué construirías primero?",
+  "tiempos_definitivos": false,
+  "planos": [
+    {"id":"S01","funcion":"Presentar la meta","accion_visible":"Un astronauta llega a la puerta del módulo incompleto","camara":"General cercano","recursos":["Modulo central","Astronauta"],"criterio":"La falta de partes del refugio se entiende a simple vista"},
+    {"id":"S02","funcion":"Presentar opciones","accion_visible":"Mostrar los tres proyectos de mejora por separado","camara":"Tres insertos","recursos":["Panel de energia","Deposito de agua","Vehiculo de transporte"],"criterio":"Las opciones se distinguen por silueta y rótulo"},
+    {"id":"S03","funcion":"Explicar cómo participar","accion_visible":"Mostrar ENERGIA / AGUA / TRANSPORTE, una instrucción de voto y el corte confirmado","camara":"Gráfico editorial","recursos":[],"criterio":"El texto coincide con las reglas anunciadas; no hay una ganadora ficticia"},
+    {"id":"S04","funcion":"Cerrar con consecuencia","accion_visible":"Volver al refugio con su espacio reservado para la próxima mejora","camara":"Mismo general del inicio","recursos":["Modulo central","Astronauta"],"criterio":"Se entiende qué cambiará cuando termine la ronda"}
+  ]
+}

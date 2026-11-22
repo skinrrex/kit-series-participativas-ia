@@ -1,0 +1,19 @@
+{
+  "fps": 24,
+  "ancho": 1080,
+  "alto": 1920,
+  "voz_archivo": null,
+  "duracion_voz_s": null,
+  "segmentos": [
+    {
+      "id": "S01",
+      "archivo": null,
+      "entrada_s": null,
+      "salida_s": null,
+      "inicio_secuencia_s": null,
+      "velocidad": 1.0,
+      "funcion": null
+    }
+  ],
+  "subtitulos": null
+}

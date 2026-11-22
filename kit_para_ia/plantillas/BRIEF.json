@@ -1,0 +1,20 @@
+{
+  "tema": null,
+  "meta_visible": null,
+  "episodios": 7,
+  "formato": "9:16",
+  "estilo": null,
+  "reglas": {
+    "likes": null,
+    "comentario_valido": null,
+    "suscriptores": null,
+    "corte_iso8601": null,
+    "duplicados": null,
+    "empate": null,
+    "tardios": null,
+    "politica_descensos": null
+  },
+  "confirmado": [],
+  "propuestas": [],
+  "pendientes": []
+}

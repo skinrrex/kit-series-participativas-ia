@@ -1,0 +1,16 @@
+{
+  "ejemplo_ficticio_no_usar_como_datos_reales": true,
+  "ronda": "demo_01",
+  "corte_id": "demo_01_corte_b",
+  "fecha_iso8601": "2026-11-12T18:00:00-03:00",
+  "zona_horaria": "America/Buenos_Aires",
+  "post": {"plataforma": "demo", "post_id": "publicacion_01", "likes_ultimo_total_acreditado": 120, "likes_actuales": 170, "aporte_nuevo": 50},
+  "suscriptores": {"metodo": "saldo_neto_entre_cortes", "base": 1000, "actual": 1012, "saldo_neto": 12, "identidades_disponibles": false},
+  "comentarios": [
+    {"plataforma": "demo", "post_id": "publicacion_01", "comentario_id": "c01", "cuenta_id": "cuenta_a", "ronda": "demo_01", "texto": "ME ANOTO + ENERGIA", "opcion": "energia", "es_valido": true},
+    {"plataforma": "demo", "post_id": "publicacion_01", "comentario_id": "c02", "cuenta_id": "cuenta_a", "ronda": "demo_01", "texto": "ME ANOTO + ENERGIA", "opcion": "energia", "es_valido": false, "motivo": "segundo voto de la misma cuenta en la ronda"},
+    {"plataforma": "demo", "post_id": "publicacion_01", "comentario_id": "c03", "cuenta_id": "cuenta_b", "ronda": "demo_01", "texto": "ME ANOTO + AGUA", "opcion": "agua", "es_valido": true}
+  ],
+  "resultado": {"energia": 1, "agua": 1, "ganador": null, "estado": "empate; aplicar la regla anunciada"},
+  "aplicado": false
+}

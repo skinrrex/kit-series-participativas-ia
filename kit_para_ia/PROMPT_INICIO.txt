@@ -1,0 +1,14 @@
+Quiero crear una serie participativa con IA. Lee primero INSTRUCCIONES_PROYECTO.md y METODO_COMPLETO.md de esta carpeta. Si no puedes leer algún archivo, indica cuál y trabaja con lo disponible.
+
+Mi tema: [completar]
+Mi meta visible: [completar]
+Cantidad de episodios: [completar]
+Formato y plataforma: [completar]
+Qué cambia un me gusta: [completar o no se usa]
+Comentario válido y consecuencia: [completar]
+Qué cambia un nuevo suscriptor: [completar o no se usa]
+Fecha, hora y zona del corte: [completar]
+Estilo y referencias: [completar]
+Herramientas disponibles y carpeta de trabajo: [completar]
+
+Primero prepara preproducción revisable: brief, reglas, calendario, fichas, inventario y storyboard. Comprueba herramientas y accesos sin gastar en generaciones. Marca propuestas y datos pendientes. No generes voz ni video hasta mi revisión. Después, cuando autorice producir, ejecuta por etapas y conserva fuentes, proyectos, capturas reales y estado. No inventes que una captura, generación, escucha o revisión se hizo si no ocurrió.

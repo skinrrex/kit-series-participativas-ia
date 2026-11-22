@@ -1,0 +1,17 @@
+{
+  "episodio": 1,
+  "planos": [
+    {
+      "id": "S01",
+      "frase": null,
+      "accion_visible": null,
+      "camara": null,
+      "recursos": [],
+      "duracion_estimada_s": null,
+      "metodo": null,
+      "referencia": null,
+      "criterio_aceptacion": null,
+      "pendientes": []
+    }
+  ]
+}
